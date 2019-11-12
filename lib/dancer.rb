@@ -5,7 +5,7 @@ require_relative './fancy_dance.rb'
 class Dancer 
   #include Dance
   #extend MetaDancing
-  #
+  # :: This syntax references the parent and child relationship of the nested modules.
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
  
