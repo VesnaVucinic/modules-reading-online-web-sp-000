@@ -8,7 +8,7 @@ class Dancer
   # :: This syntax references the parent and child relationship of the nested modules.
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
- 
+ # 
   attr_accessor :name
  
   def initialize(name)
